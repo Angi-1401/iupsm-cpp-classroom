@@ -1,15 +1,18 @@
 #include <iostream>
 
 int main() {
+  // Declare variables
   int num;
-  float num_2;
-  
+
+  // Get user input
+  std::cout << "Enter a number: ";
   std::cin >> num;
 
-  num_2 = num % 2;
-  if (num_2 == 0) {
-    std::cout << "El resto es: " << num_2 << " Es par" << std::endl;
+  // Check if the number is odd or even
+  if (num % 2 == 0) {
+    std::cout << "The number is even" << std::endl;
   } else {
-    std::cout << "El resto es: " << num_2 << " Es impar" << std::endl;
+    std::cout << "The number is odd" << std::endl;
   }
 }
+

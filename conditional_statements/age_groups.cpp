@@ -1,10 +1,14 @@
 #include <iostream>
 
 int main() {
+  // Declare variable to store age
   int age;
+
+  // Get user input
   std::cout << "Enter your age: ";
   std::cin >> age;
 
+  // Check age and print corresponding message
   if (age >= 1 && age <= 4) {
     std::cout << "You are a toddler" << std::endl;
   } else if (age >= 5 && age <= 12) {
