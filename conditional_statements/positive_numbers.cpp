@@ -1,14 +1,3 @@
-//Inicio
-//  Leer num
-//  Si num * -1 < 0
-//    Escribir "Es positivo"
-//  Sino Si num * -1 > 0 
-//    Escribir "Es negativo"
-//  Sino
-//    Escribir "Es cero"
-//Fin
-
-
 #include <iostream>
 
 int main() {
@@ -23,8 +12,3 @@ int main() {
     std::cout << "The number is cero" << std::endl;
   }
 }
-
-// < <- Operador Menor que
-// > <- Operador Mayor que
-// <= <- Operador Menor o igual que
-// >= <- Operador Mayor o igual que
