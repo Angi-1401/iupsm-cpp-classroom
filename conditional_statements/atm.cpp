@@ -1,14 +1,6 @@
-/*
-Desarrollar un programa en la terminal con C++ que simule el comportamiento de una sesión en un cajero.
-Este cajero puede realizar dos operaciones:
-- Ingresar fondo
-- Retirar fondos
-El algoritmo debe permitir al usuario preguntar si va a ingresar y luego si va a retirar y modificar el saldo del usuario respectivamente.
-*/
-
 #include <iostream>
 
-int main()
+int main(int argc, char *argv[])
 {
   float balance = 0.0;
   float deposit, withdraw;
