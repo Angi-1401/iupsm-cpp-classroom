@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[])
+{
   // Declare variables
   int num;
 
@@ -9,10 +10,12 @@ int main() {
   std::cin >> num;
 
   // Check if the number is odd or even
-  if (num % 2 == 0) {
+  if (num % 2 == 0)
+  {
     std::cout << "The number is even" << std::endl;
-  } else {
+  }
+  else
+  {
     std::cout << "The number is odd" << std::endl;
   }
 }
-

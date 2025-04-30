@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[])
+{
   // Declare variable
   int num;
 
@@ -9,11 +10,16 @@ int main() {
   std::cin >> num;
 
   // Check if the number is positive, negative or cero
-  if (num > 0) {
+  if (num > 0)
+  {
     std::cout << "The number is positive" << std::endl;
-  } else if (num < 0) {
+  }
+  else if (num < 0)
+  {
     std::cout << "The number is negative" << std::endl;
-  } else {
+  }
+  else
+  {
     std::cout << "The number is cero" << std::endl;
   }
 }
