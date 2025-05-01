@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int main(int argc, char *argv[])
 {
   // Declare variables
   float l1, l2, l3;

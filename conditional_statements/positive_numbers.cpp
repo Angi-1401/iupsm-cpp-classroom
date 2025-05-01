@@ -1,25 +1,16 @@
 #include <iostream>
 
-int main(int argc, char *argv[])
-{
-  // Declare variable
-  int num;
+int main(int argc, char *argv[]) {
+    int num;
 
-  // Get user input
-  std::cout << "Enter a number: ";
-  std::cin >> num;
+    std::cout << "Enter a number: ";
+    std::cin >> num;
 
-  // Check if the number is positive, negative or cero
-  if (num > 0)
-  {
-    std::cout << "The number is positive" << std::endl;
-  }
-  else if (num < 0)
-  {
-    std::cout << "The number is negative" << std::endl;
-  }
-  else
-  {
-    std::cout << "The number is cero" << std::endl;
-  }
+    if (num > 0) {
+        std::cout << "The number is positive" << std::endl;
+    } else if (num < 0) {
+        std::cout << "The number is negative" << std::endl;
+    } else {
+        std::cout << "The number is cero" << std::endl;
+    }
 }
