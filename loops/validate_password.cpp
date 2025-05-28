@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     password = "Potato123*";
 
     do {
-        std::cout << "Ingrese la contraseña: >_ ";
+        std::cout << "Type the password: ";
         std::cin >> password_1;
 
         if (password_1 == password) {
