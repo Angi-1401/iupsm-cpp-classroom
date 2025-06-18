@@ -3,7 +3,7 @@
 const int ROWS = 3;
 const int COLS = 4;
 
-int main() {
+int main(int argc, char *argv[]) {
     int matrix[ROWS][COLS] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
 
     std::cout << "Sums for each row:" << std::endl;

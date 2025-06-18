@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[]) {
     int a[2][2] = {{1, 2}, {3, 4}}, b[2][2] = {{5, 6}, {7, 8}};
     int sum[2][2];
 

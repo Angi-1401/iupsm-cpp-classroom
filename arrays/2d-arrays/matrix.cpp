@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[]) {
     int matrix[2][3];
 
     for (int i = 0; i < 2; i++) {

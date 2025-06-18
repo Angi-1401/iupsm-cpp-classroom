@@ -3,7 +3,7 @@
 const int ROWS = 5;
 const int COLS = 5;
 
-int main() {
+int main(int argc, char *argv[]) {
     int cinema[ROWS][COLS] = {0};
 
     int row, col;
