@@ -106,6 +106,6 @@ int main(int argc, char *argv[]) {
         std::cout << "\nPlayer " << ((turn - 1) % 2 == 0 ? 'X' : 'O') << " wins!" << std::endl;
     else
         std::cout << "\nIt's a draw!" << std::endl;
-        
+
     return 0;
 }
